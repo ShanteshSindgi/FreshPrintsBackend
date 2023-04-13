@@ -1,0 +1,21 @@
+{
+  "apparel": [
+    {
+      "code": 1,
+      "type": "tshirt",
+      "sizes": [
+        { "size": "L", "quantity": 3, "price": 1433, "quality": "sdd" },
+        { "size": "M", "quantity": 3, "price": 1433, "quality": "sdd" }
+      ]
+    },
+    {
+      "code": 2,
+      "type": "jeans",
+      "sizes": [
+        { "size": "L", "quantity": 2, "price": 1433, "quality": "sdd" },
+        { "size": "M", "quantity": 5, "price": 1433, "quality": "sdd" },
+        { "size": "S", "quantity": 1, "price": 30, "quality": "denim" }
+      ]
+    }
+  ]
+}
