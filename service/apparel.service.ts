@@ -3,7 +3,7 @@ import { ApparelListType, ApparelUpdateType, Order } from '../ApparelTypes';
 import { HttpError } from '../utility/httpError'
 const DB_NAME = process.env.DB_NAME
 
-const db = new JsonDB(new Config(`/${DB_NAME}`, true, false, '/'));
+const db = new JsonDB(new Config(`${DB_NAME}`, true, false, '/'));
 const fetchApparel = async () => {
     try {
         const data = await db.getData(`/${DB_NAME}`) as ApparelListType[];
